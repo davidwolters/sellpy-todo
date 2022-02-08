@@ -1,0 +1,21 @@
+{
+    "compilerOptions": {
+      "module": "commonjs",
+      "target": "es6",
+      "rootDir": "./",
+      "baseUrl": ".",
+      "esModuleInterop": true,
+      "moduleResolution": "node",
+      "isolatedModules": true,
+      "paths": {
+        "@controllers/*": ["./src/controllers/*"],
+        "@config/*": ["src/config/*"],
+        "@middlewares/*": ["src/middlewares/*"],
+        "@routes/*": ["src/routes/*"],
+        "@utils/*": ["src/utils/*"],
+        "@typedefs/*": ["src/typedefs/*"],
+        "@store/*": ["src/store/*"],
+      }
+    },
+    "include": ["app.ts", "**/*.ts", "**/*.d.ts"]
+  }
