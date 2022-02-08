@@ -30,6 +30,6 @@ Tested on Node version v15.0.0. Should work with most major versions after this.
 ## Running the project
 
 ```bash
-cd backend && npm start
+cd backend && npm run dev
 cd frontend && npm start
 ```
